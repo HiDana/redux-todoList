@@ -1,0 +1,43 @@
+.item{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-top: 1px solid #eceff2;
+  border-bottom: 1px solid #eceff2;
+}
+
+.view label{
+  padding: 0 10px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.item:hover{
+  background-color: #fafafa;
+  transition: 0.2s;
+}
+.destroy{
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  margin-left: 10px;
+  border: 1px solid #eceff2;
+  background: none;
+  font-size: 50%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: .2s;
+  display: none;
+  cursor: pointer;
+}
+.item:hover .destroy{
+  transition: .2s;
+  display: inline-block;
+}

@@ -1,0 +1,32 @@
+.footer{
+  height: 50px;
+  align-items: center;
+  padding-left: 20px;
+}
+.footer, .filters{
+  display: flex;
+}
+.filters{
+  padding-left: 30px;
+}
+.filters li{
+  padding: 0 5px;
+}
+
+
+.clear-completed{
+  margin-left: 10px;
+	padding: 5px ;
+	border: 1px solid #eceff2;
+	background: none;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+	-webkit-appearance: none;
+	appearance: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+}
